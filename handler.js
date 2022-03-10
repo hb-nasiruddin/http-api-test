@@ -7,6 +7,7 @@ module.exports.hello = async (event) => {
       {
         message: "Go Serverless v3.0! Your function executed successfully!",
         version: event.version,
+        routeKey: event.routeKey,
       },
       null,
       2
